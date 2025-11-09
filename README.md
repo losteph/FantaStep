@@ -31,13 +31,13 @@ Il progetto è costruito su un'architettura ibrida che utilizza Google Sheets co
 # 🔧 Come Funziona (Workflow dell'Admin)
 Il sistema è progettato per essere gestito da un admin (o un gruppo di admin) con un workflow settimanale.
 
-1. Setup Iniziale:
+### 1. Setup Iniziale:
 
   - Creare una copia del file FantaStep.xlsx sul proprio Google Drive.
 
   - Creare un Google Form collegato al foglio DB_POR, DB_DIF, ecc. (come descritto nel PDF) che salvi le risposte nel foglio Form_Responses.
 
-2. Ogni Giornata (Prima delle partite):
+### 2. Ogni Giornata (Prima delle partite):
 
   - L'admin aggiorna il listone DB_Giocatori (se necessario).
 
@@ -45,11 +45,11 @@ Il sistema è progettato per essere gestito da un admin (o un gruppo di admin) c
 
   - Gli utenti inviano le loro formazioni tramite il Google Form.
 
-3. Ogni Giornata (Dopo le partite):
+### 3. Ogni Giornata (Dopo le partite):
 
   - L'admin compila il foglio Input_Voti con tutti i bonus e malus (+3 per gol, -0.5 per falli, ecc.).
 
-4. Calcolo Punteggi:
+### 4. Calcolo Punteggi:
 
   - L'admin apre il notebook FantaStep.ipynb in Google Colab.
 
@@ -57,7 +57,7 @@ Il sistema è progettato per essere gestito da un admin (o un gruppo di admin) c
 
   - Lo script legge i dati, calcola i punteggi di giornata (Cella 4), aggiorna la classifica storica (Cella 5) e genera il file index.html (Cella 6).
 
-5. Pubblicazione:
+### 5. Pubblicazione:
 
   - Lo script fa scaricare automaticamente il file index.html aggiornato.
 
