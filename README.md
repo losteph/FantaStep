@@ -78,7 +78,7 @@ Il sistema è progettato per essere gestito da un admin (o un gruppo di admin) c
 
 - FantaStep.ipynb: Il notebook Jupyter/Colab con tutto il codice Python per l'elaborazione.
 
-- FantaStep.pdf: (Sostituisci con il nome del tuo file) La documentazione di progetto che spiega in dettaglio l'architettura e il flusso di lavoro.
+- FantaStep.pdf: La documentazione di progetto che spiega in dettaglio l'architettura e il flusso di lavoro.
 
 - index.html: Il file della classifica pubblica generato dallo script.
 
@@ -87,3 +87,5 @@ Il sistema è progettato per essere gestito da un admin (o un gruppo di admin) c
 Questo progetto è rilasciato sotto la Licenza MIT. Questo significa che sei libero di usare, modificare, distribuire e persino vendere questo codice, a condizione che includi l'avviso di copyright originale (presente nel file LICENSE).
 
 Vedi il file LICENSE per i dettagli completi.
+
+---
